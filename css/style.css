@@ -26,10 +26,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translateX(-100px);
     border-radius: 50%;
     background-color: black;
     justify-self: center;
 
+}
+
+.disk-grey-center{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 50%;
 }
 
 .disk-red-center{
